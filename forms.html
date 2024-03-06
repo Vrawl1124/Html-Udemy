@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>FORMS</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body style="background-image: url('bg.jpg'); background-size: 100% 100%;">
+        <h1 style="color: limegreen;text-align: center;">STUDENT FORM</h1>
+        <b><p style="text-align: center; color: rgb(222, 15, 101);">Please fill the form</p></b>
+        <forms action = "#" method = "post">
+        <div style="text-align: center;border-style:groove;border-color: chocolate;padding-top: 18px;padding-bottom: 18px;
+        margin-left: 500px;margin-right: 500px;background-color: yellowgreen;color: black;">
+            First Name : <input type = "text" name = "First_Name" placeholder = "Enter First Name" />
+            <br />
+            <br />
+            Last Name  : <input type = "text" name = "last name" placeholder = "Enter Last Name" />
+            <br />
+            <br />
+            User ID    : <input type = "text" name = "User ID" maxlength="10" placeholder = "Enter User ID" />
+            <br />
+            <br />
+            Password   : <input type = "password" name = "password" maxlength="10" placeholder = "Enter Password" />
+            <br />
+            <br />
+            Description : <br />
+            <textarea rows = "5" cols = "50" name = "description" placeholder="Enter your response"></textarea>  
+            <br />
+            <br />
+            Select the subjects : <br />
+            <input type = "checkbox" name = "telugu" value = "on" /> Telugu 
+            <input type = "checkbox" name = "hindi" value = "on" /> Hindi
+            <input type = "checkbox" name = "english" value = "on" /> English
+            <input type = "checkbox" name = "maths" value = "on" /> Maths 
+            <input type = "checkbox" name = "physics" value = "on" /> Physics 
+            <input type = "checkbox" name = "chemistry" value = "on" /> Chemistry 
+            <br />
+            <br />
+            Select your gender : <br />
+            <input type = "radio" name = "gender" value = "male" /> Male 
+            <input type = "radio" name = "gender" value = "female" /> Female 
+            <input type = "radio" name = "gender" value = "other" /> Others
+            <br />
+            <br />
+            Graduation : <br />
+            <select>
+                <option value = "10th class">Secondary</option>
+                <option value = "intermediate">Intermediate</option>
+                <option value = "diploma">Diploma</option>
+                <option value = "B.tech">B. Tech</option>
+            </select>
+            <br />
+            <br />
+            <input class="button" type = "button" name = "submit" value = "SUBMIT" /> &nbsp; &nbsp;
+            <input class = "cancel" type="button" name = "cancel" value = "CANCEL" /> &nbsp; &nbsp;
+            <input class="reset" type = "button" name = "reset" value = "RESET" />
+        </div>
+        </forms>
+    </body>
+</html>

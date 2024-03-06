@@ -1,0 +1,17 @@
+.button{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    margin-right: 25px;
+}
+.cancel{
+    background-color: darkred;
+    color: antiquewhite;
+    padding: 10px;
+}
+.reset{
+    background-color: firebrick;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 25px;
+}
